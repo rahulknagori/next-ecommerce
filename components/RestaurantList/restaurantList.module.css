@@ -1,0 +1,19 @@
+.restaurant-list {
+  max-width: 12rem;
+  padding: 1rem;
+}
+
+.restaurant-list ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.restaurant-img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.restaurant-img img {
+  width: 100%;
+  height: 100%;
+}

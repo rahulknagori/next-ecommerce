@@ -1,0 +1,15 @@
+type Props = {
+  content: string;
+};
+
+const Head: React.FC<Props> = ({ content }) => {
+  return (
+    <>
+      <title>Order Food</title>
+      <meta name="description" content={content} />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.ico" />
+    </>
+  );
+};
+export default Head;

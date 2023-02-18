@@ -1,0 +1,27 @@
+.main-menu {
+  width: 40rem;
+  margin: 4rem auto auto auto;
+  background-color: rgb(53, 210, 200);
+  border-radius: 0.5rem;
+}
+
+.menu {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
+.categories-heading {
+  padding: 0.5rem 0;
+  background: #ebd3ed;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-menu ul,
+.menu ul {
+  list-style-type: none;
+}

@@ -1,0 +1,34 @@
+.main {
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.total-div {
+  background: red;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+
+.place-order-div {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.button,
+.button-disabled {
+  padding: 0.5rem 2rem;
+  background: rgb(6, 88, 83);
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+  color: #ffffff;
+}
+
+.button-disabled {
+  background: rgb(179, 179, 179);
+  pointer-events: none;
+}
