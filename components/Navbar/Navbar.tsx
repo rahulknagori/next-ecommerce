@@ -9,9 +9,11 @@ import styles from "./Navbar.module.css";
 const Navbar: React.FC = () => {
   const products = useAppSelector((state) => state.cartSlice.products);
 
-  const filterZeroQuantityProducts = products.filter((item) => {
-    return item.quantity !== 0;
-  });
+  const filterZeroQuantityProducts = products.filter(
+    (item: { quantity: number }) => {
+      return item.quantity !== 0;
+    }
+  );
 
   return (
     <nav className={styles["nav"]}>
